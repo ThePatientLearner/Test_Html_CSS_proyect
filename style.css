@@ -1,0 +1,461 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera{
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.icono-telefono{
+    max-width: 13px;
+    height: auto;
+    margin-left:15% ;
+}
+
+
+.telefono {
+    font-size: 15px;
+    margin-right: auto;
+    margin-left: 7px;
+    
+}
+
+.icono-lupa img{
+    width: 15px;
+    background-color: red;
+    padding: 8px;
+    margin-right: 260px;
+}
+
+.barra-navegacion{
+    padding-top: 12px;
+    padding-bottom: 12px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 2%;
+   
+}
+
+.icono-empresa{
+    
+    width: 200px;
+}
+
+.barra-menu{
+    display: flex;
+    margin-right: 250px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.barra-menu a{
+    margin-left: 20px;
+    text-decoration:none;
+}
+
+.contenido-pagina{
+    
+    background-color: #f5f5f5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+.contenido-pagina2{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+}
+
+
+.footer-superior{
+    background-color: #f2f2f2;
+    border: 2px,solid,black;
+    padding: 35px;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: small;
+    color:grey;
+    font-style: bold;
+}
+
+.footer-superior p{
+    margin: 2px;
+}
+
+footer h3{
+    color: #555;
+
+}
+
+.footer-superior span{
+    color: #555;
+}
+
+.footer-inferior{
+    font-size: x-small;
+    padding-top: 15px;
+    background-color: rgb(252, 250, 250);
+    border-top: 1px solid rgb(228, 222, 222);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.textoFooter-inferior{
+    margin-left: 15%;
+    color: gray;
+}
+
+.iconos-redSocial{
+    margin-right: 16%;
+    padding-bottom: 30px;
+}
+
+.iconos-redSocial a img{
+    width: 25px;
+    margin-right: 8px;
+    
+}
+
+.imagen-home img{
+    width: 70%;
+    height: 600px;
+    margin-left: 15%;   
+}
+
+.contenido-home span{
+    color:red;
+}
+
+.contenido-home{
+    color:gray;
+    margin-left: 15%;
+    position: relative;
+    margin-right: 15%;
+    padding-top: 50px;
+}
+
+.contenido-home .boton-rojo{
+    width: 130px;
+    height: 40px;
+    background-color: rgba(233, 30, 30, 0.856);
+    border-radius: 4%;
+    position: absolute;
+    top:80px;
+    right: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.contenido-home .boton-rojo:hover {
+    background-color: rgba(4, 0, 255, 0.9); 
+    transition: background-color 0.3s ease;
+    text-decoration: none; /*no se como hacer para quitar la ralla*/
+}
+
+
+
+
+.contenido-home .boton-rojo h3{
+
+color: white;
+
+text-decoration: ;
+}
+
+.contenido-home .boton-rojo:active {
+    background-color: white; 
+   
+}
+
+.contenido-home .boton-rojo h3:active {
+    color: black; 
+   
+}
+
+.barra-superior-pricingBox{
+    border: 1px,solid,black;
+    background-color: rgb(235, 235, 235);
+    height: 60px;
+    padding-top:25px;
+}
+
+.Direccion-local-box{
+    border: 1px solid rgb(199, 12, 12);
+    background-color: red;
+    height: 30px;
+    width: 200px;
+    margin-left: 12.5%;
+    border-radius: 4%;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size:14px;
+}
+
+.Direccion-local-box2{
+    border: 1px solid rgb(199, 12, 12);
+    background-color: red;
+    height: 30px;
+    width: 125px;
+    margin-left: 13.5%;
+    border-radius: 4%;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size:14px;
+    margin-bottom: 25px;
+}
+
+.Direccion-local{
+    margin-left: 13px;
+    margin-bottom: 10px;
+
+}
+
+.logo-casa{
+    margin-right: 0px;
+    margin-left: 17px;
+    margin-bottom: 2px;
+}
+
+.example{
+    margin-left: 12%;
+    color:gray;
+    
+}
+
+.fila-columnas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.titulo-box-price1{
+    margin-left: 12.5%;
+    border: 1px solid rgb(132, 129, 127);
+    width: 25%; 
+    text-align: center;
+}
+
+.titulo-box-price1-2{
+    margin-left:2%;
+    margin-right: 0%;
+    border: 1px solid rgb(132, 129, 127);
+    width: 25%;
+    text-align: center;
+}
+
+.titulo-box-price{
+    margin-left:2%;
+    margin-right: 2%;
+    border: 1px solid rgb(132, 129, 127);
+    width: 25%;
+    text-align: center;
+}
+
+
+
+.titulo-box-price2{
+    margin-right: 20%;
+    border: 1px solid rgb(132, 129, 127);
+    width: 25%; 
+    text-align: center;
+
+}
+
+.titulo-box-price h6{
+    margin: 0;
+    padding-top: 52px;
+    padding-bottom: 12px ;
+    
+}
+
+h6{
+    font-weight: lighter !important;
+}
+
+.titulo-fondo-rojo{
+    background-color: rgb(225, 26, 26) !important;
+    color: #f5f5f5;
+    
+}
+
+.titulo-box-price .titulo-fondo-rojo .titulo-box span{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+
+.titulo-box-price1 h6 span,
+.titulo-box-price h6 span,
+.titulo-box-price2 h6 span,
+.titulo-box-price1-2 h6 span {
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+}
+
+.titulo-box{
+    font-size:25px;
+    margin-bottom: 12px;
+    margin-top: 55px;
+}
+
+.titulo-box-price1 p,
+.titulo-box-price p,
+.titulo-box-price2 p,
+.titulo-box-price1-2 p {
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(164, 162, 162);
+    border: 1px solid rgb(181, 177, 177);
+}
+
+.price {
+    padding-top: 23px !important;
+    padding-bottom: 23px !important;
+    background-color: black;
+    color: white !important;
+    font-weight: bold;
+    font-size: small;
+    border: none !important;
+}
+
+
+
+.titulo-box-price1 .boton-registro,
+.titulo-box-price .boton-registro,
+.titulo-box-price2 .boton-registro,
+.titulo-box-price1-2 .boton-registro
+{
+    position: relative;
+    width: 90px; /* Ajusta el ancho del cuadrado según tus necesidades */
+    height: 20px; /* Ajusta la altura del cuadrado según tus necesidades */
+    background-color: red;
+    margin: 0 auto; /* Centra horizontalmente usando márgenes automáticos */
+    color: white !important;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+    border: 1px solid rgb(96, 94, 92) !important;
+    border-radius: 7%;
+}
+
+.Separacion-boxes-footer{
+    margin-top: 50px;
+}
+
+.contenido-pagina3 > :first-child{
+    color: gray;
+    font-weight: bold;
+    margin-left: 13%;
+    margin-top: 60px;
+    margin-bottom: 15px ;
+}
+
+.fila-seleccion-cuadros{
+    display: flex;
+}
+
+.fila-seleccion-cuadros p{
+    margin-left: 16px;
+    border: 1px solid lightgray;
+    color: gray;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: smaller;
+    margin-bottom: 25px;
+}
+
+.fila-seleccion-cuadros .first-minibox{
+    margin-left: 13% !important; 
+
+}
+
+.fila-imagenes1{
+    
+}
+
+.Fila-imagenes1 img:first-child{
+    margin-left: 13% !important;
+}
+
+.fila-imagenes1 img:first-child,.texto-imagen1{
+    margin-right: 200px;
+}
+
+.Fila-imagenes1 img{
+    width: 300px;
+    margin-left: 50px;
+    height: 200px;
+}
+
+#ajuste-imagen1{
+    width: 310px;
+}
+
+.texto-imagen1{
+    margin-left: 50px;
+    display: flex;
+    
+}
+
+.texto-imagen1 p:first-child{
+    margin-left: 12%;
+    margin-top: 1px;
+    
+}
+
+.texto-imagen1 p:last-child{
+    margin-right: 5%;
+    margin-left: 230px;
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+.p2{
+    margin-left: 235px;
+    margin-top: 1px;
+}
+
+.p3{
+    margin-left: 215px;
+    margin-top: 1px;
+}
+
+.texto-imagen1 p{
+    font-weight: bolder;
+    color: rgb(82, 82, 82);
+    padding-top: 12px;
+
+}
+
+.texto-imagen1 p span{
+    font-weight: lighter;
+    color: gray;
+    font-size: small;
+}
